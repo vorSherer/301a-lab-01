@@ -19,3 +19,4 @@ OR
 
 ### Footnotes
 
+Huge shout-outs to Cory Henderson, Jin Kim and Allyson Reyes for their assistance with this lab!
