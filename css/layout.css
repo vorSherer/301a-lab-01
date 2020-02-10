@@ -1,28 +1,63 @@
+* {
+    width: 100%;
+}
+
 .main {
     height: 250px;
+    width: 100%;
 }
 
 .nav {
     height: 150px;
+    width: 100%;
 }
 
 .subheads {
     height: 500px;
+    width: 100%;
 }
 
 .subheads p {
     float: left;
+    width: 100%;
 }
 
-
-header > p {
+@media screen and (min-width: 769px) {
+    body {
+        width: 960px;
+    }
     
+    footer {
+        float: right;
+        height: 150px;
+        width: 760px;
+    }
+
+    header {
+        height: 100px;
+        width: 960px;
+    }
+
+    .main {
+        float: right;
+        height: 200px;
+        width: 760px;
+    }
+    
+    .nav {
+        float: left;
+        height: 600px;
+        width: 200px;
+    }
+    
+    .subheads {
+        float: right;
+        height: 250px;
+        width: 760px;
+    }
+    
+    .subheads p {
+        float: left;
+    }
 }
 
-aside {
-
-}
-
-footer {
-
-}
