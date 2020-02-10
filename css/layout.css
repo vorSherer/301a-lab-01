@@ -1,3 +1,20 @@
+.main {
+    height: 250px;
+}
+
+.nav {
+    height: 150px;
+}
+
+.subheads {
+    height: 500px;
+}
+
+.subheads p {
+    float: left;
+}
+
+
 header > p {
     
 }
