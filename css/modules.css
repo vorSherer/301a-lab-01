@@ -1,48 +1,114 @@
-p {
-    text-align: center;
+@media screen and (max-width: 480px) {
+
+    #one {
+        height: 75px;
+        line-height: 75px;;
+        width: 100%;
+    }
+
+    #two {
+        height: 150px;
+        line-height: 150px;;
+        width: 100%;
+    }
+
+    #three {
+        height: 125px;
+        line-height: 125px;;
+        width: 100%;
+    }
+
+    #four {
+        height: 125px;
+        line-height: 125px;;
+        width: 100%;
+    }
+
+    #five {
+        height: 250px;
+        line-height: 250px;;
+        width: 50%;
+    }
+
+    #six {
+        height: 250px;
+        line-height: 250px;;
+        width: 50%;
+    }
+
+    #seven {
+        height: 250px;
+        line-height: 250px;;
+        width: 50%;
+    }
+
+    #eight {
+        height: 250px;
+        line-height: 250px;;
+        width: 50%;
+    }
+
+    #nine {
+        height: 80px;
+        line-height: 80px;;
+        width: 100%;
+    }
 }
 
-#one {
-    height: 75px;
-    width: 100%;
-}
-
-#two {
-    height: 150px;
-    width: 100%;
-}
-
-#three {
-    height: 125px;
-    width: 100%;
-}
-
-#four {
-    height: 125px;
-    width: 100%;
-}
-
-#five {
-    height: 250px;
-    width: 50%;
-}
-
-#six {
-    height: 250px;
-    width: 50%;
-}
-
-#seven {
-    height: 250px;
-    width: 50%;
-}
-
-#eight {
-    height: 250px;
-    width: 50%;
-}
-
-#nine {
-    height: 80px;
-    width: 100%;
+@media screen and (min-width: 481px) {
+    #one {
+        height: 100px;
+        line-height: 100px;;
+        width: 100%;
+    }
+    
+    #two {
+        height: 600px;
+        line-height: 600px;;
+        width: 100%;
+    }
+    
+    #three {
+        float: left;
+        height: 200px;
+        line-height: 200px;;
+        width: 50%;
+    }
+    
+    #four {
+        float: right;
+        height: 200px;
+        line-height: 200px;;
+        width: 50%;
+    }
+    
+    #five {
+        height: 250px;
+        line-height: 250px;;
+        width: 25%;
+    }
+    
+    #six {
+        height: 250px;
+        line-height: 250px;;
+        width: 25%;
+    }
+    
+    #seven {
+        height: 250px;
+        line-height: 250px;;
+        width: 25%;
+    }
+    
+    #eight {
+        height: 250px;
+        line-height: 250px;;
+        width: 25%;
+    }
+    
+    #nine {
+        height: 150px;
+        line-height: 150px;;
+        width: 100%;
+    }
 }
